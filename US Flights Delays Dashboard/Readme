@@ -1,0 +1,70 @@
+1. Overview:
+
+Flight delays are a persistent issue in the airline industry, impacting operational efficiency,
+finances, and customer satisfaction. Delays, defined as the difference between scheduled and
+actual flight times stem from factors such as weather, staffing, maintenance, and congestion.
+This project involves building a Decision Support System (DSS) using Tableau to analyse
+and visualise flight delay patterns. The goal is to create an interactive, user-friendly platform
+that supports data-driven decision-making. Unlike static reports, the DSS features dynamic
+dashboards with filters for Delay Type (Arrival/Departure), Airline, Departure/Arrival Airport,
+Month of the flight etc. enabling customised exploration.
+I used a comprehensive dataset sourced from Kaggle, comprising flight schedules,
+cancellations, weather data, aircraft details, and airport geolocations. Data preparation and
+cleaning are performed using Python addressing issues like duplicates and inconsistencies.
+All transformations are documented for transparency.
+
+•	The analysis seeks to answer questions like:
+•	What causes delays?
+•	How do they vary by location, time, and airline?
+•	What is the role of weather and geography?
+
+To support this, I had to apply basic statistical techniques including averages, medians, and further
+analysis. The final DSS is published on Tableau Public, allowing users to explore insights interactively
+and support better operational and strategic decisions.
+
+2. Dataset Links:
+
+There are 5 files provided, this comes from https://www.kaggle.com/datasets/bordanova/2023-us-civil-flights-delay-meteo-and-aircraft
+
+•	airports_geolocation.csv
+•	cancelled_Diverted_2023.csv
+•	maj us flight - january 2024.csv
+•	US_flights_2023.csv
+•	weather_meteo_by_airport.csv
+
+
+3. Public Dataset Inclusion
+
+A consolidated dataset was created by combining publicly available state-wise data on
+population (U.S. Census Bureau, 2024), median household income (Statista, 2024), and
+enplaned passenger counts (Federal Aviation Administration, 2024). This integration helped
+in understanding key contextual factors influencing flight cancellations across the U.S.
+
+
+•	States with larger populations often host busier airports and denser air traffic,
+increasing the complexity of flight operations and the likelihood of disruption.
+•	Higher median incomes were considered indicative of a greater proportion of
+frequent flyers, including business and leisure travellers, potentially influencing both
+demand and service expectations.
+•	Finally, enplanement volumes served as a proxy for identifying high-traffic airports or
+states, which function as critical nodes in the national air travel network and are
+therefore more vulnerable to cascading delays and cancellations during operational
+stress.
+
+
+4. Dashboard Overview:
+
+The Flight Delay Insights Dashboard is a comprehensive decision-support tool designed to
+analyse and interpret the key drivers of flight delays across the United States in 2023. It brings
+together multiple interactive visualizations to provide a holistic view of flight performance,
+disruptions, and contributing factors within the U.S. aviation network. The dashboard opens
+with a Welcome Page that includes a Glossary of Terms and Navigation Buttons to guide
+users through six key views. The glossary defines essential concepts such as delay types,
+aircraft age buckets, and disruption categories, ensuring clarity for users of all backgrounds.
+Navigation buttons enhance usability by allowing quick access to each section, streamlining
+the data exploration experience.
+
+5. Dashboard URL:
+
+https://public.tableau.com/views/MIS41040Team16/Welcome?:language=en-
+US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
