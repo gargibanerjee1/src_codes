@@ -24,7 +24,7 @@ and support better operational and strategic decisions.
 
 2. Dataset Links:
 
-There are 5 files provided, this comes from https://www.kaggle.com/datasets/bordanova/2023-us-civil-flights-delay-meteo-and-aircraft
+There are 5 files provided, this comes from [Kaggle Dataset – US Civil Flights 2023](https://www.kaggle.com/datasets/bordanova/2023-us-civil-flights-delay-meteo-and-aircraft)
 
 •	airports_geolocation.csv
 •	cancelled_Diverted_2023.csv
@@ -65,7 +65,6 @@ Navigation buttons enhance usability by allowing quick access to each section, s
 the data exploration experience.
 
 5. Dashboard URL:
-
 
 https://public.tableau.com/views/MIS41040Team16/Welcome?:language=en-
 US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
