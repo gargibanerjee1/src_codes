@@ -1,4 +1,4 @@
-1. Overview:
+## 1. Overview:
 
 Flight delays are a persistent issue in the airline industry, impacting operational efficiency,
 finances, and customer satisfaction. Delays, defined as the difference between scheduled and
@@ -65,6 +65,7 @@ Navigation buttons enhance usability by allowing quick access to each section, s
 the data exploration experience.
 
 5. Dashboard URL:
+
 
 https://public.tableau.com/views/MIS41040Team16/Welcome?:language=en-
 US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
