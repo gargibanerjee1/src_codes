@@ -49,10 +49,8 @@ The project also includes unit tests using `pytest` to verify the correctness of
 pip install pandas pytest pyarrow
 ```
 ## Usage
-Run the processing script
-```bash
-python functions.py
-```
+Run the processing script `functions.py`
+
 This will:
 - Download the dataset from:
 https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/EDA14/CSV/1.0/en
